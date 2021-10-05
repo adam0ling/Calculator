@@ -67,5 +67,6 @@ while True:
         calculator.clear_memory()
         print(f'Result: {calculator.get_result()}')
     elif choice == 8:
-        print(f'Result: {calculator.get_result()}. Good-Bye')
+        print(f'Result: {calculator.get_result()}')
+        print('Good-bye.')
         break
