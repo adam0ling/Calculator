@@ -1,11 +1,11 @@
-if __name__ == '__main__':
+from Calculator_Class import Calculator
 
-    from Calculator_Class import Calculator
+
+if __name__ == '__main__':
 
     calculator = Calculator(memory = 0)
     acceptable_inputs = [1, 2, 3, 4, 5, 6, 7, 8]
     print('1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Root \n6. Set Memory\n7. Clear Memory\n8. End Program')
-
 
     while True:
         choice = int(input('What is your choice? '))
