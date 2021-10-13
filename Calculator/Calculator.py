@@ -3,9 +3,7 @@ from Calculator.Calculator_Class import Calculator
 
 if __name__ == '__main__':
 
-    calculator = Calculator(memory = 0)d3
-
-    3
+    calculator = Calculator(memory = 0)
 
 
     
