@@ -1,4 +1,4 @@
-from Calculator_Class import Calculator
+from Calculator.Calculator_Class import Calculator
 
 
 if __name__ == '__main__':
